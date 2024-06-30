@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ff69b4; /* Warna latar belakang pink */
+    font-family: 'Press Start 2P', cursive; /* Font pixel art */
+    color: white;
+}
+
+.header {
+    background: #ff1493; /* Warna pink lebih gelap untuk header */
+    padding: 20px;
+    text-align: center;
+}
+
+.tab-bar {
+    margin-top: 10px;
+}
+
+.tab-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.tab-bar a:hover {
+    background: white;
+    color: #ff1493; /* Warna pink dari header untuk hover */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #ff1493; /* Warna pink lebih gelap untuk footer */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 5px;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 10px; /* Membuat sudut kotak membulat */
+}
+
+.social-link:hover {
+    background: white;
+    color: #ff1493; /* Warna pink dari footer untuk hover */
+    transform: scale(1.1); /* Menambah efek zoom saat hover */
+}
+
+.twitter {
+    background: #1DA1F2; /* Warna background khusus untuk Twitter */
+    border-color: #1DA1F2;
+}
+
+.telegram {
+    background: #0088cc; /* Warna background khusus untuk Telegram */
+    border-color: #0088cc;
+}
